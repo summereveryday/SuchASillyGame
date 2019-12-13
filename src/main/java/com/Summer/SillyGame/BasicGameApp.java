@@ -10,16 +10,15 @@ import com.almasb.fxgl.input.UserAction;
 import com.almasb.fxgl.physics.CollisionHandler;
 import com.almasb.fxgl.texture.Texture;
 import javafx.scene.input.KeyCode;
-//import javafx.scene.paint.Color;
-//import javafx.scene.shape.Circle;
-//import javafx.scene.shape.Rectangle;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Circle;
+import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 import java.util.Map;
 
 public class BasicGameApp extends GameApplication {
     @Override
     protected void initSettings(GameSettings settings){
-        settings.setWidth(600);
         settings.setHeight(600);
         settings.setTitle("What a Silly Game");
         settings.setVersion("0.1");
@@ -37,7 +36,6 @@ public class BasicGameApp extends GameApplication {
             @Override
             protected void onAction() {
                 player.translateX(5); // move right 5 pixels
-                getGameState().increment("pixelsMoved", +5);
             }
         }, KeyCode.D);
 
@@ -45,7 +43,6 @@ public class BasicGameApp extends GameApplication {
             @Override
             protected void onAction() {
                 player.translateX(-5); // move left 5 pixels
-                getGameState().increment("pixelsMoved", +5);
             }
         }, KeyCode.A);
 
@@ -53,7 +50,6 @@ public class BasicGameApp extends GameApplication {
             @Override
             protected void onAction() {
                 player.translateY(-5); // move up 5 pixels
-                getGameState().increment("pixelsMoved", +5);
             }
         }, KeyCode.W);
 
@@ -61,7 +57,6 @@ public class BasicGameApp extends GameApplication {
             @Override
             protected void onAction() {
                 player.translateY(5); // move down 5 pixels
-                getGameState().increment("pixelsMoved", +5);
             }
         }, KeyCode.S);
     }
