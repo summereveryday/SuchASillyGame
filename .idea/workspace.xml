@@ -2,25 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d75d0c-02fc-40da-bb9c-148a34b13b66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$EntityType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$EntityType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Dec-2019-17.37.29.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Dec-2019-17.38.51.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Dec-2019-17.39.07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Dec-2019-17.41.38.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Dec-2019-17.43.10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Dec-2019-17.47.18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Dec-2019-17.51.05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Dec-2019-17.51.58.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Dec-2019-17.57.56.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Dec-2019-18.14.18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Dec-2019-18.14.43.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Dec-2019-18.15.45.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/BasicGameApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/BasicGameApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +40,9 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SummersSillyGame" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -45,7 +54,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Uw8fZow79pzQlRHsT8vy82VaNe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -116,7 +127,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576256400997</updated>
-      <workItem from="1576256402429" duration="8329000" />
+      <workItem from="1576256402429" duration="8510000" />
+      <workItem from="1576338331802" duration="8037000" />
     </task>
     <servers />
   </component>
@@ -128,7 +140,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

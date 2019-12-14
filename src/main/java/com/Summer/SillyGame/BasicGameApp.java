@@ -36,6 +36,7 @@ public class BasicGameApp extends GameApplication {
             @Override
             protected void onAction() {
                 player.translateX(5); // move right 5 pixels
+                player.getPosition();
             }
         }, KeyCode.D);
 
@@ -66,16 +67,12 @@ public class BasicGameApp extends GameApplication {
         vars.put("pixelsMoved", 0);
     }
 
-    private Entity player, red_jewel, blue_jewel, purple_jewel, green_jewel;
+    private Entity red_jewel, blue_jewel, purple_jewel, green_jewel;
+    private Player player;
 
     @Override
     protected void initGame() {
-        player = Entities.builder()
-                .type(EntityType.PLAYER)
-                .at(300, 300)
-                .viewFromTextureWithBBox("hero_walk.gif")
-                .with(new CollidableComponent(true))
-                .buildAndAttach(getGameWorld());
+        player = new Player(getGameWorld());
 
         red_jewel = Entities.builder()
                 .type(EntityType.JEWEL)
