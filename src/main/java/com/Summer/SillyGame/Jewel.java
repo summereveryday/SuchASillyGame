@@ -3,22 +3,14 @@ package com.Summer.SillyGame;
 
 import com.almasb.fxgl.entity.Entities;
 import com.almasb.fxgl.entity.Entity;
-import com.almasb.fxgl.entity.component.Component;
-import com.almasb.fxgl.entity.component.Required;
 import com.almasb.fxgl.entity.components.CollidableComponent;
-import com.almasb.fxgl.physics.PhysicsComponent;
-import com.almasb.fxgl.texture.AnimatedTexture;
-import com.almasb.fxgl.texture.AnimationChannel;
-import javafx.geometry.Point2D;
-import javafx.scene.image.Image;
-import javafx.util.Duration;
 
 public class Jewel extends Entity {
-    //    private PhysicsComponent physics;
     String color;
     Entity jewel;
 
     public Jewel(String color, com.almasb.fxgl.entity.GameWorld gameWorld) {
+        super();
         this.color = color;
         int x = getNum();
         int y = getNum();
@@ -47,7 +39,7 @@ public class Jewel extends Entity {
         return png;
     }
 
-    public int getNum() {
+    private int getNum() {
         int num = (int)(Math.random() * 1000);
         while (num > 575) {
             num = (int)(Math.random() * 1000);

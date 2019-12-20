@@ -17,18 +17,22 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$EntityType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$EntityType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Jewel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Jewel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.20.36.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.28.55.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.34.44.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.35.35.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.39.40.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.43.55.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.48.00.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.49.44.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.52.05.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.52.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.18.53.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.21.38.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.26.50.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.27.11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.30.12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.33.13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.41.09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.41.47.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.44.58.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.47.56.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/BasicGameApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/BasicGameApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Jewel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Jewel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Player.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,9 +76,6 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.Summer.SillyGame" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.Summer.SillyGame" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
@@ -84,6 +85,9 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.Summer.SillyGame" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -135,7 +139,7 @@
       <workItem from="1576256402429" duration="8510000" />
       <workItem from="1576338331802" duration="9428000" />
       <workItem from="1576621835353" duration="7301000" />
-      <workItem from="1576854832135" duration="1975000" />
+      <workItem from="1576854832135" duration="6105000" />
     </task>
     <servers />
   </component>
