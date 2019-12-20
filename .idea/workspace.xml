@@ -15,18 +15,19 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$EntityType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$EntityType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-14-Dec-2019-12.01.28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-14-Dec-2019-12.04.14.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-14-Dec-2019-12.18.02.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-14-Dec-2019-12.39.41.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-14-Dec-2019-12.55.56.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-14-Dec-2019-13.00.17.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-14-Dec-2019-13.07.16.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-14-Dec-2019-13.08.05.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-14-Dec-2019-13.14.48.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-14-Dec-2019-13.19.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.20.36.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.28.55.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.34.44.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.35.35.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.39.40.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.43.55.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.48.00.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.49.44.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.52.05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Dec-2019-19.52.42.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/BasicGameApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/BasicGameApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Player.java" afterDir="false" />
     </list>
@@ -134,6 +135,7 @@
       <workItem from="1576256402429" duration="8510000" />
       <workItem from="1576338331802" duration="9428000" />
       <workItem from="1576621835353" duration="7301000" />
+      <workItem from="1576854832135" duration="1975000" />
     </task>
     <servers />
   </component>

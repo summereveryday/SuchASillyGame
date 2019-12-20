@@ -44,6 +44,10 @@ public class Player extends Person {
         return this.jewelCount;
     }
 
+    public int getHP() {
+        return this.hp;
+    }
+
     @Override
     public int loseHP(int damage) {
         return super.loseHP(damage);

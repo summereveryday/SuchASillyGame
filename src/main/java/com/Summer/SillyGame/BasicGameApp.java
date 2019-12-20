@@ -17,15 +17,44 @@ import javafx.scene.text.Text;
 import java.util.Map;
 
 public class BasicGameApp extends GameApplication {
+    public enum EntityType {
+        PLAYER, JEWEL
+    }
+
+    private Player player1;
+    private Jewel red_jewel, blue_jewel, purple_jewel, green_jewel;
+
     @Override
     protected void initSettings(GameSettings settings){
         settings.setHeight(600);
         settings.setTitle("What a Silly Game");
-        settings.setVersion("0.1");
+        settings.setVersion("1.0");
     }
 
-    public enum EntityType {
-        PLAYER, JEWEL
+    @Override
+    protected void initGame() {
+        player1 = new Player(getGameWorld());
+
+        red_jewel = new Jewel("red", getGameWorld());
+        blue_jewel = new Jewel("blue", getGameWorld());
+        purple_jewel = new Jewel("purple", getGameWorld());
+        green_jewel = new Jewel("green", getGameWorld());
+    }
+
+    @Override
+    protected void initGameVars(Map<String, Object> vars) {
+        vars.put("jewelCount", 0);
+        vars.put("playerHP", 30);
+    }
+
+    @Override
+    protected void initUI() {
+        Text jewelText = new Text();
+        jewelText.setTranslateX(50); // x = 50
+        jewelText.setTranslateY(100); // y = 100
+
+        jewelText.textProperty().bind(getGameState().intProperty("jewelCount").asString());
+        getGameScene().addUINode(jewelText); // add to the scene graph
     }
 
     @Override
@@ -35,14 +64,14 @@ public class BasicGameApp extends GameApplication {
         input.addAction(new UserAction("Move Right") {
             @Override
             protected void onAction() {
-                player.player.translateX(5); // move right 5 pixels
+                player1.player.translateX(5); // move right 5 pixels
             }
         }, KeyCode.D);
 
         input.addAction(new UserAction("Move Left") {
             @Override
             protected void onAction() {
-                player.player.translateX(-5); // move left 5 pixels
+                player1.player.translateX(-5); // move left 5 pixels
             }
         }, KeyCode.A);
 
@@ -50,34 +79,16 @@ public class BasicGameApp extends GameApplication {
             @Override
             protected void onAction() {
 
-                player.player.translateY(-5); // move up 5 pixels
+                player1.player.translateY(-5); // move up 5 pixels
             }
         }, KeyCode.W);
 
         input.addAction(new UserAction("Move Down") {
             @Override
             protected void onAction() {
-                player.player.translateY(5); // move down 5 pixels
+                player1.player.translateY(5); // move down 5 pixels
             }
         }, KeyCode.S);
-    }
-
-    @Override
-    protected void initGameVars(Map<String, Object> vars) {
-        vars.put("pixelsMoved", 0);
-    }
-
-    private Player player;
-    private Jewel red_jewel, blue_jewel, purple_jewel, green_jewel;
-
-    @Override
-    protected void initGame() {
-        player = new Player(getGameWorld());
-
-        red_jewel = new Jewel("red", getGameWorld());
-        blue_jewel = new Jewel("blue", getGameWorld());
-        purple_jewel = new Jewel("purple", getGameWorld());
-        green_jewel = new Jewel("green", getGameWorld());
     }
 
     @Override
@@ -86,8 +97,10 @@ public class BasicGameApp extends GameApplication {
 
             // order of types is the same as passed into the constructor
             @Override
-            protected void onCollisionBegin(Entity player, Entity red_jewel) {
-                red_jewel.removeFromWorld();
+            protected void onCollisionBegin(Entity player, Entity jewel) {
+                jewel.removeFromWorld();
+                player1.getJewel();
+                getGameState().increment("jewelCount", +1);
             }
         });
     }
