@@ -21,18 +21,27 @@ import javafx.util.Duration;
 public class Player extends Person {
     int jewelCount;
     boolean weapon;
+    Entity player;
 //    private Entities.EntityBuilder player;
 
     public Player(com.almasb.fxgl.entity.GameWorld gameWorld) {
         this.jewelCount = 0;
         this.weapon = false;
         this.hp = 30;
-        Entities.builder()
+        this.player = Entities.builder()
                 .type(BasicGameApp.EntityType.PLAYER)
                 .at(300, 300)
                 .viewFromTextureWithBBox("hero_walk.gif")
                 .with(new CollidableComponent(true))
                 .buildAndAttach(gameWorld);
+    }
+
+    public void getJewel() {
+        this.jewelCount += 1;
+    }
+
+    public int getJewelCount() {
+        return this.jewelCount;
     }
 
     @Override

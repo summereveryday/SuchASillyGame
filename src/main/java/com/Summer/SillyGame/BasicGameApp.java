@@ -35,29 +35,29 @@ public class BasicGameApp extends GameApplication {
         input.addAction(new UserAction("Move Right") {
             @Override
             protected void onAction() {
-                player.translateX(5); // move right 5 pixels
-                player.getPosition();
+                player.player.translateX(5); // move right 5 pixels
             }
         }, KeyCode.D);
 
         input.addAction(new UserAction("Move Left") {
             @Override
             protected void onAction() {
-                player.translateX(-5); // move left 5 pixels
+                player.player.translateX(-5); // move left 5 pixels
             }
         }, KeyCode.A);
 
         input.addAction(new UserAction("Move Up") {
             @Override
             protected void onAction() {
-                player.translateY(-5); // move up 5 pixels
+
+                player.player.translateY(-5); // move up 5 pixels
             }
         }, KeyCode.W);
 
         input.addAction(new UserAction("Move Down") {
             @Override
             protected void onAction() {
-                player.translateY(5); // move down 5 pixels
+                player.player.translateY(5); // move down 5 pixels
             }
         }, KeyCode.S);
     }
@@ -67,41 +67,17 @@ public class BasicGameApp extends GameApplication {
         vars.put("pixelsMoved", 0);
     }
 
-    private Entity red_jewel, blue_jewel, purple_jewel, green_jewel;
     private Player player;
+    private Jewel red_jewel, blue_jewel, purple_jewel, green_jewel;
 
     @Override
     protected void initGame() {
         player = new Player(getGameWorld());
 
-        red_jewel = Entities.builder()
-                .type(EntityType.JEWEL)
-                .at(575, 300)
-                .viewFromTextureWithBBox("red_jewel.png")
-                .with(new CollidableComponent(true))
-                .buildAndAttach(getGameWorld());
-
-        blue_jewel = Entities.builder()
-                .type(EntityType.JEWEL)
-                .at(10, 300)
-                .viewFromTexture("blue_jewel.png")
-                .with(new CollidableComponent(true))
-                .buildAndAttach(getGameWorld());
-
-        purple_jewel = Entities.builder()
-                .type(EntityType.JEWEL)
-                .at(300, 575)
-                .viewFromTexture("purple_jewel.png")
-                .with(new CollidableComponent(true))
-                .buildAndAttach(getGameWorld());
-
-
-        green_jewel = Entities.builder()
-                .type(EntityType.JEWEL)
-                .at(300, 10)
-                .viewFromTexture("green_jewel.png")
-                .with(new CollidableComponent(true))
-                .buildAndAttach(getGameWorld());
+        red_jewel = new Jewel("red", getGameWorld());
+        blue_jewel = new Jewel("blue", getGameWorld());
+        purple_jewel = new Jewel("purple", getGameWorld());
+        green_jewel = new Jewel("green", getGameWorld());
     }
 
     @Override
