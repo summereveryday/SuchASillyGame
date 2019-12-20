@@ -4,9 +4,7 @@ import com.almasb.fxgl.app.FXGL;
 import com.almasb.fxgl.entity.Entities;
 import com.almasb.fxgl.entity.Entity;
 import com.almasb.fxgl.entity.components.CollidableComponent;
-import com.almasb.fxgl.app.GameApplication;
-import com.almasb.fxgl.settings.GameSettings;
-import com.almasb.fxgl.physics.CollisionHandler;
+import com.almasb.fxgl.entity.view.EntityView;
 
 public class Player extends Person {
     int jewelCount;
@@ -61,12 +59,14 @@ public class Player extends Person {
 
     @Override
     public void attack() {
-        super.attack();
+        EntityView view = player.getView();
+        view.removeNode(view);
+        player.setViewFromTextureWithBBox("hero_attack.png");
     }
 
     @Override
-    public void move() {
-        super.move();
+    public void move(Entity entity) {
+        super.move(entity);
     }
 
     @Override

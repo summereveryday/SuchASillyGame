@@ -26,7 +26,7 @@ public abstract class Person extends Entity {
 
     public void attack() {}
 
-    public void move() {}
+    public void move(Entity entity) {}
 
     public void spawn() {}
 }

@@ -15,25 +15,27 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$EntityType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp$EntityType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/BasicGameApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Jewel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Jewel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Monster.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Monster.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/Summer/SillyGame/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.18.53.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.21.38.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.26.50.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.27.11.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.30.12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.33.13.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.41.09.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.41.47.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.44.58.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-10.47.56.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-11.32.11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-11.34.40.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-11.35.16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-11.35.55.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-11.36.33.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-11.36.47.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-11.38.38.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-11.40.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-11.53.21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Dec-2019-11.58.51.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/BasicGameApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/BasicGameApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Jewel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Jewel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Monster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Summer/SillyGame/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/fxgl.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/system/fxgl.bundle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +55,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -139,7 +142,7 @@
       <workItem from="1576256402429" duration="8510000" />
       <workItem from="1576338331802" duration="9428000" />
       <workItem from="1576621835353" duration="7301000" />
-      <workItem from="1576854832135" duration="6105000" />
+      <workItem from="1576854832135" duration="14284000" />
     </task>
     <servers />
   </component>

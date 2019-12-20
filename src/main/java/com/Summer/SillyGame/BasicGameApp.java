@@ -1,3 +1,9 @@
+// Summer Daily
+// Java Final Project
+
+// Welcome to my game. Move using 'w', 'a', 's', and 'd'. Get the gems. Don't get hit by the monster. Good luck!"
+
+
 package com.Summer.SillyGame;
 
 import com.almasb.fxgl.app.GameApplication;
@@ -9,6 +15,8 @@ import com.almasb.fxgl.physics.CollisionHandler;
 import javafx.scene.input.KeyCode;
 import javafx.scene.text.Text;
 import java.util.Map;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class BasicGameApp extends GameApplication {
     public enum EntityType {
@@ -36,6 +44,14 @@ public class BasicGameApp extends GameApplication {
         green_jewel = new Jewel("green", getGameWorld());
 
         monster = new Monster(getGameWorld());
+
+        Timer t = new Timer();
+        t.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                monster.move(player1.player);
+            }
+        }, 0, 100);
     }
 
     @Override
@@ -48,8 +64,8 @@ public class BasicGameApp extends GameApplication {
     protected void initUI() {
         Text jewelText = new Text();
         Text hpText = new Text();
-        jewelText.setTranslateX(50); // x = 50
-        jewelText.setTranslateY(100); // y = 100
+        jewelText.setTranslateX(50);
+        jewelText.setTranslateY(100);
         hpText.setTranslateX(50);
         hpText.setTranslateY(115);
 
@@ -66,16 +82,24 @@ public class BasicGameApp extends GameApplication {
         Input input = getInput();
 
         input.addAction(new UserAction("Move Right") { @Override protected void onAction() {
-            player1.player.translateX(5); } }, KeyCode.D);
+            player1.player.translateX(5);
+        } }, KeyCode.D);
 
         input.addAction(new UserAction("Move Left") { @Override protected void onAction() {
-            player1.player.translateX(-5); } }, KeyCode.A);
+            player1.player.translateX(-5);
+        } }, KeyCode.A);
 
         input.addAction(new UserAction("Move Up") { @Override protected void onAction() {
-            player1.player.translateY(-5); } }, KeyCode.W);
+            player1.player.translateY(-5);
+        } }, KeyCode.W);
 
         input.addAction(new UserAction("Move Down") { @Override protected void onAction() {
-            player1.player.translateY(5); } }, KeyCode.S);
+            player1.player.translateY(5);
+        } }, KeyCode.S);
+
+        input.addAction(new UserAction("Attack") { @Override protected void onAction() {
+            player1.attack();
+        } }, KeyCode.ENTER);
     }
 
     @Override
